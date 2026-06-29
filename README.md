@@ -40,12 +40,10 @@ The control panel runs entirely in the browser — all rendering, data processin
 
 ## Quick start
 
-1. Clone the main repo — `git clone https://github.com/nasp2000/Node32-HUB`
-2. Open `user_config.h` and set `#define SELECTED_PACK PACK_P4_CNC`
-3. Compile and upload — `pio run -e esp32p4 -t upload`
-4. Connect the GRBL controller to **USB port 0** (the first Type-A port)
-5. Open `http://<esp32-ip>/grbl-controller` in a browser
-6. Click **Auto-detect baud** — the sender will find the right rate automatically
+1. Flash the pre-built binary to your ESP32-P4 (binaries available in Releases)
+2. Connect the GRBL controller to **USB port 0** (the first Type-A port)
+3. Open `http://<esp32-ip>/grbl-controller` in a browser
+4. Click **Auto-detect baud** — the sender will find the right rate automatically
 
 ---
 
