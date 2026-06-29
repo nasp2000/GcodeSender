@@ -26,3 +26,8 @@ build/esp32p4/GcodeSender/v1.07/<YYYYMMDD_HHMM>/
 1. Zip the 4 files above → `gcodesender_v1.07.zip`
 2. Place the `.zip` here in `firmware/`
 3. Commit and push — I will publish the GitHub release automatically
+
+## Flash
+
+- **First-time**: use [webflasher_Node32-HUB](https://github.com/nasp2000/webflasher_Node32-HUB) (select `gcodesender_v1.07.zip`)
+- **Updates**: OTA at `http://<esp32-ip>/ota` (upload only the `.bin` file)
