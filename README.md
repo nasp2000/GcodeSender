@@ -59,6 +59,16 @@ The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot
 
 ---
 
+## Primeiro Acesso
+
+1. Ligue o dispositivo à alimentação
+2. Aguarde a criação da rede Wi-Fi **NODE32-HUB** (Access Point)
+3. Conecte-se à rede com a senha **node32hub**
+4. Abra o navegador e aceda a `http://192.168.4.1`
+5. Faça login com o utilizador **root** e senha **root**
+
+---
+
 ## License
 
 Same as Node32-HUB — see the [main repository](https://github.com/nasp2000/Node32-HUB).
