@@ -59,13 +59,13 @@ The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot
 
 ---
 
-## Primeiro Acesso
+## First Access
 
-1. Ligue o dispositivo à alimentação
-2. Aguarde a criação da rede Wi-Fi **NODE32-HUB** (Access Point)
-3. Conecte-se à rede com a senha **12345678**
-4. Abra o navegador e aceda a `http://192.168.4.1`
-5. Faça login com o utilizador **root** e senha **root**
+1. Flash the pre-built binary
+2. Wait for AP **NODE32-HUB**
+3. Connect with password **12345678**
+4. Browse to `http://192.168.4.1`
+5. Login with user **root** / password **root**
 
 ---
 
