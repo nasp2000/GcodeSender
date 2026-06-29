@@ -6,6 +6,8 @@ Streams G-code to GRBL-based CNC controllers via **USB Host**, with a web-based 
 
 ![GcodeSender web UI](image/gcodesender_page.png)
 
+📷 [More screenshots](image/)
+
 ---
 
 ## Features
