@@ -1,6 +1,6 @@
 # Firmware binaries
 
-Version follows Node32-HUB (current: v1.07).
+Version follows Node32-HUB.
 
 ## Build
 
