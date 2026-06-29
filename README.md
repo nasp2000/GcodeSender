@@ -1,8 +1,8 @@
-# GcodeSender-HUB
+# GcodeSender
 
 **G-code sender firmware for ESP32-P4** — part of the [Node32-HUB](https://github.com/nasp2000/Node32-HUB) project.
 
-Streams G-code to GRBL-based CNC controllers via **USB Host** or **UART**, with a web-based control panel, automatic error recovery, and dual storage (SD card + PSRAM).
+Streams G-code to GRBL-based CNC controllers via **USB Host**, with a web-based control panel, automatic error recovery, and dual storage (SD card + PSRAM).
 
 ---
 
@@ -15,7 +15,6 @@ Streams G-code to GRBL-based CNC controllers via **USB Host** or **UART**, with 
 
 ### Transport
 - **USB Host** — connect directly to a GRBL controller via USB (ESP32-P4 native OTG).
-- **UART** — serial connection for boards without USB Host capability.
 
 ### Web UI (`/grbl-controller`)
 - Machine position display (DRO) with real-time updates
