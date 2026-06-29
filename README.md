@@ -1,8 +1,8 @@
 # GcodeSender
 
-**G-code sender firmware for ESP32-P4** — part of the [Node32-HUB](https://github.com/nasp2000/Node32-HUB) project.
+**G-code sender firmware for ESP32-P4 and ESP32-S3** — part of the [Node32-HUB](https://github.com/nasp2000/Node32-HUB) project.
 
-Streams G-code to GRBL-based CNC controllers via **USB Host**, with a web-based control panel that runs entirely in the browser — zero server load, the ESP32 only sends raw data. Features automatic error recovery, dual storage (SD card + PSRAM), and a fully customisable drag-and-drop interface.
+Streams G-code to GRBL-based CNC controllers and **diode lasers** via **USB Host**, with a web-based control panel that runs entirely in the browser — zero server load, the ESP32 only sends raw data. Features automatic error recovery, dual storage (SD card + PSRAM), and a fully customisable drag-and-drop interface.
 
 ![GcodeSender web UI](image/gcodesender_page.png)
 
