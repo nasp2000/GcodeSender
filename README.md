@@ -35,19 +35,14 @@ Streams G-code to GRBL-based CNC controllers via **USB Host**, with a web-based 
 
 ---
 
-## Build
+## Quick start
 
-```bash
-git clone https://github.com/nasp2000/Node32-HUB
-cd chatgpt
-pio run -e esp32p4 -t upload
-```
-
-Select the `GcodeSender-P4` pack in `user_config.h`:
-
-```c
-#define SELECTED_PACK PACK_P4_CNC
-```
+1. Clone the main repo — `git clone https://github.com/nasp2000/Node32-HUB`
+2. Open `user_config.h` and set `#define SELECTED_PACK PACK_P4_CNC`
+3. Compile and upload — `pio run -e esp32p4 -t upload`
+4. Connect the GRBL controller to **USB port 0** (the first Type-A port)
+5. Open `http://<esp32-ip>/grbl-controller` in a browser
+6. Click **Auto-detect baud** — the sender will find the right rate automatically
 
 ---
 
