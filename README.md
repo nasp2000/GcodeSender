@@ -66,6 +66,10 @@ The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot
 3. Connect with password **12345678**
 4. Browse to `http://192.168.4.1`
 5. Login with user **root** / password **root**
+6. Go to **Settings → Wi-Fi** and connect to your local network
+7. Once connected, the AP turns off automatically and the device is reachable at the assigned IP
+
+> If the device loses connection to the Wi-Fi network, it reactivates AP mode automatically.
 
 ---
 
