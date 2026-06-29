@@ -2,7 +2,7 @@
 
 **G-code sender firmware for ESP32-P4** — part of the [Node32-HUB](https://github.com/nasp2000/Node32-HUB) project.
 
-Streams G-code to GRBL-based CNC controllers via **USB Host**, with a web-based control panel, automatic error recovery, and dual storage (SD card + PSRAM).
+Streams G-code to GRBL-based CNC controllers via **USB Host**, with a web-based control panel that runs entirely in the browser — zero server load, the ESP32 only sends raw data. Features automatic error recovery, dual storage (SD card + PSRAM), and a fully customisable drag-and-drop interface.
 
 ---
 
@@ -17,6 +17,9 @@ Streams G-code to GRBL-based CNC controllers via **USB Host**, with a web-based 
 - **USB Host** — connect directly to a GRBL controller via USB (ESP32-P4 native OTG).
 
 ### Web UI (`/grbl-controller`)
+The control panel runs entirely in the browser — all rendering, data processing, and preview calculations are done locally. The ESP32 only sends raw data; the page never reloads.
+
+- **Drag-and-drop widgets** — rearrange the layout freely by dragging any widget. Each widget remembers its position.
 - Machine position display (DRO) with real-time updates
 - Start, pause, resume, cancel, feed hold, reset, unlock, home
 - Browse and stream G-code files from SD card
