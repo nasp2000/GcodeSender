@@ -33,12 +33,16 @@ The control panel runs entirely in the browser — all rendering, data processin
 - Text area for quick commands (local queue)
 - Real-time console log with status feedback
 - Event log for alarms, errors, and state changes
+- 2D path preview with real-time job progress — shows the already-cut path vs. what remains while streaming
+- Feed and spindle/laser overrides applied live on demand, without interrupting the stream
+- Height-map compensation from a probed Z grid for uneven surfaces
 - Multi-session support (one operator, multiple observers)
 - USB diagnostics and auto-baud detection
 
 ### Reliability
 - Automatic retry on errors, alarm auto-clear (`$X`), and stall detection
 - G-code preprocessing — removes comments and blank lines before sending
+- Staged + PSRAM streaming with automatic fallback and per-line error recovery
 - Job logging to SD card for debugging
 - Adaptive polling — adjusts to command throughput automatically
 
