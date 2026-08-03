@@ -48,6 +48,7 @@ The control panel runs entirely in the browser — all rendering, data processin
 
 [**Waveshare ESP32-P4 Module Dev Kit**](https://www.waveshare.com/esp32-p4-module-dev-kit.htm)
 
+
 The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot, PSRAM, and Ethernet — everything required.
 
 ---
