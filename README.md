@@ -4,7 +4,7 @@
 
 > ⚠️ Current release targets **ESP32-P4 only**.
 
-Streams G-code to GRBL-based CNC controllers and **diode lasers** via **USB Host**, with a web-based control panel that runs entirely in the browser — zero server load, the ESP32 only sends raw data. Features automatic error recovery, dual storage (SD card + PSRAM), and a fully customisable drag-and-drop interface.
+Streams G-code to GRBL-based CNC controllers and **diode lasers** via **USB Host**, with a web-based control panel that runs entirely in the browser — zero server load, the ESP32 only sends raw data. Features automatic error recovery, dual storage (SD card + PSRAM), and a customisable dock layout.
 
 ![GcodeSender web UI](image/gcodesender_page.png)
 
@@ -25,7 +25,7 @@ Streams G-code to GRBL-based CNC controllers and **diode lasers** via **USB Host
 ### Web UI (`/grbl-controller`)
 The control panel runs entirely in the browser — all rendering, data processing, and preview calculations are done locally. The ESP32 only sends raw data; the page never reloads.
 
-- **Drag-and-drop widgets** — rearrange the layout freely by dragging any widget. Each widget remembers its position.
+- Customisable dock layout — show/hide, reorder and move widgets between docks (each widget remembers its position)
 - Machine position display (DRO) with real-time updates
 - Start, pause, resume, cancel, feed hold, reset, unlock, home
 - Browse and stream G-code files from SD card
