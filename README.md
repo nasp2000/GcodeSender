@@ -65,7 +65,7 @@ The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot
 
    <img src="image/esp32p4_port0.jpg" width="220" alt="ESP32-P4 USB port 0">
 
-3. Open `http://<esp32-ip>/grbl-controller` in a browser
+3. Open `http://gcodesender-p4.local/grbl-controller` in a browser (mDNS) or `http://<esp32-ip>/grbl-controller`
 4. Click **Auto-detect baud** — the sender will find the right rate automatically
 
 ---
@@ -78,7 +78,7 @@ The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot
 4. Browse to `http://192.168.4.1`
 5. Login with user **root** / password **root**
 6. Go to **Settings → Wi-Fi** and connect to your local network
-7. Once connected, the AP turns off automatically and the device is reachable at the assigned IP
+7. Once connected, the AP turns off automatically and the device is reachable at `http://gcodesender-p4.local` (mDNS) or the assigned IP
 
 > If the device loses connection to the Wi-Fi network, it reactivates AP mode automatically.
 
