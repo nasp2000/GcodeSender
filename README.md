@@ -62,6 +62,9 @@ The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot
 
 1. Flash the pre-built binary to your ESP32-P4 (binaries in Releases) using [webflasher_Node32-HUB](https://github.com/nasp2000/webflasher_Node32-HUB). For future updates use **OTA** at `http://<esp32-ip>/ota`
 2. Connect the GRBL controller to **USB port 0** ⚠️ only port 0 works, the others are ignored
+
+   ![ESP32-P4 USB port 0](image/esp32p4_port0.jpg)
+
 3. Open `http://<esp32-ip>/grbl-controller` in a browser
 4. Click **Auto-detect baud** — the sender will find the right rate automatically
 
