@@ -36,6 +36,7 @@ The control panel runs entirely in the browser — all rendering, data processin
 - 2D path preview with real-time job progress — shows the already-cut path vs. what remains while streaming
 - Feed and spindle/laser overrides applied live on demand, without interrupting the stream
 - Height-map compensation from a probed Z grid for uneven surfaces
+- Contour (piece) selection in the preview - click near lines, Tab=next, Space=toggle, skip disabled contours on the next run
 - Multi-session support (one operator, multiple observers)
 - USB diagnostics and auto-baud detection
 
