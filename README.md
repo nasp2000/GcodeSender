@@ -86,4 +86,4 @@ The only tested board. Built-in USB Host OTG (for GRBL connection), SD card slot
 
 ## License
 
-Same as Node32-HUB — see the [main repository](https://github.com/nasp2000/Node32-HUB).
+Released under the MIT License — see [LICENSE](https://github.com/nasp2000/Node32-HUB/blob/main/LICENSE) in the main repository. This firmware links LGPL-2.1/LGPL-3.0 libraries; see [THIRD_PARTY_NOTICES](https://github.com/nasp2000/Node32-HUB/blob/main/THIRD_PARTY_NOTICES).
