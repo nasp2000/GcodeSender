@@ -1,5 +1,7 @@
 # GcodeSender
 
+> ⚠️ **WARNING: Laser, plasma, and CNC machines are dangerous!** Never leave machines unattended while running with GcodeSender.
+
 **G-code sender firmware for ESP32-P4** — part of the [Node32-HUB](https://github.com/nasp2000/Node32-HUB) project.
 
 > ⚠️ Current release targets **ESP32-P4 only**.
