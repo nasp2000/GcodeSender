@@ -8,9 +8,9 @@
 
 Streams G-code to GRBL-based CNC controllers and **diode lasers** via **USB Host**, with a web-based control panel that runs entirely in the browser — zero server load, the ESP32 only sends raw data. Features automatic error recovery, dual storage (SD card + PSRAM), and a customisable dock layout.
 
-![GcodeSender web UI](image/gcodesender_page_select_on.png)
-
-📷 [More screenshots](image/)
+<p align="center">
+  <img src="image/demo.gif" width="100%" alt="GcodeSender control panel: job preview, workspace, console and USB-CDC link">
+</p>
 
 ---
 
